@@ -5,8 +5,25 @@ font-family: 'Roboto', sans-serif;
 h1 {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 72px;
 }
 h2 {
   font-family: "Nunito", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
+
+.hero-wrapper {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("/images/hero-overlay.JPG");
+
+  height: 265px;
+  background-size: cover;
 }
