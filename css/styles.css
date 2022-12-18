@@ -27,11 +27,3 @@ h2 {
   height: 265px;
   background-size: cover;
 }
-
-img {
-  margin-top: 84px;
-  border-radius: 12px;
-  object-fit: cover;
-  width: 640px;
-  height: 350px;
-}
