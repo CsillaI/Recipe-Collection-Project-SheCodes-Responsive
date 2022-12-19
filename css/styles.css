@@ -36,8 +36,13 @@ h2 {
   padding: 0px 57px;
 }
 
-.container p {
+.container a {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   font-size: 28px;
+  text-decoration: none;
+  color: black;
+}
+.container a:hover {
+  text-decoration: underline;
 }
