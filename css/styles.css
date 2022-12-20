@@ -3,17 +3,18 @@
 font-family: 'Roboto', sans-serif;
 */
 
-h1 {
-  font-family: "Nunito", sans-serif;
-  font-weight: bold;
-  padding-top: 85px;
-  text-align: center;
-  font-size: 72px;
-}
+h1,
 h2 {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-align: center;
+}
+
+h1 {
+  padding-top: 85px;
+  font-size: 72px;
+}
+h2 {
   font-size: 24px;
 }
 
