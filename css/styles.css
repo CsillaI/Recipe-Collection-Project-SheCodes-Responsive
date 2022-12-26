@@ -52,12 +52,6 @@ h2 {
   text-decoration: underline;
 }
 
-.favorite-recipes {
-  margin: 0 auto;
-  max-width: 1304px;
-  padding: 0px;
-}
-
 /*Small device friendly*/
 @media (max-width: 600px) {
   h1 {
