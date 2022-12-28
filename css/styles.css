@@ -99,6 +99,10 @@ h1 {
 
 /*About Page*/
 
+.title h1 {
+  padding-top: 16px;
+}
+
 .background {
   background-color: var(--secondary-color);
 }
