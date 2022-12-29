@@ -60,9 +60,11 @@ h3 {
   color: black;
   font-weight: 700;
   font-size: 16px;
+  transition: all 100ms ease-in-out;
 }
 
-.navigation a:hover {
+.navigation a:hover,
+.navigation li.active a {
   color: var(--primary-color);
 }
 
