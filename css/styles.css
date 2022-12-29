@@ -34,8 +34,8 @@ h3 {
 /*Navigation*/
 
 .navigation {
-  padding-top: 35px;
-  padding-bottom: 45px;
+  padding-top: 32px;
+  padding-bottom: 35px;
 }
 
 .navigation .name,
@@ -64,10 +64,9 @@ h3 {
 
 .navigation a:hover {
   color: var(--primary-color);
-  font-size: 18px;
 }
 
-/*Home Page */
+/*Home Page*/
 .hero-wrapper {
   background-image: url("/images/hero-overlay.JPG");
 
@@ -130,12 +129,12 @@ h1 {
 }
 
 .my-picture {
-  margin-top: 126px;
+  margin-top: 90px;
   margin-bottom: 100px;
 }
 
 .about-me-content h2 {
-  margin-top: 188px;
+  margin-top: 152px;
   font-size: 64px;
   line-height: 87px;
   text-align: left;
@@ -169,6 +168,34 @@ h1 {
 /*Contact Page*/
 
 /*Small device friendly*/
+
+@media (max-width: 992px) {
+  .my-picture {
+    margin-top: 75px;
+    margin-bottom: 0;
+  }
+
+  .about-me-content h2 {
+    margin-top: 85px;
+    font-size: 50px;
+    line-height: 87px;
+    text-align: center;
+  }
+
+  .about-me-content,
+  .follow-me {
+    text-align: center;
+  }
+  .about-me-content p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .favorite-recipes-content {
+    text-align: center;
+  }
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 57px;
@@ -181,6 +208,31 @@ h1 {
   }
   .hero-wrapper {
     margin-bottom: 60px;
+  }
+
+  .my-picture {
+    margin-top: 75px;
+    margin-bottom: 0;
+  }
+
+  .about-me-content h2 {
+    margin-top: 85px;
+    font-size: 50px;
+    line-height: 87px;
+    text-align: center;
+  }
+
+  .about-me-content,
+  .follow-me {
+    text-align: center;
+  }
+  .about-me-content p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .favorite-recipes-content {
+    text-align: center;
   }
 }
 
@@ -211,6 +263,13 @@ h1 {
   .navigation ul li {
     padding: 4px 8px;
   }
+
+  .about-me-content h2 {
+    margin-top: 75px;
+    font-size: 45px;
+    line-height: 87px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 300px) {
@@ -233,5 +292,38 @@ h1 {
 
   .navigation ul li {
     padding: 3px 2px;
+  }
+  .my-picture {
+    margin-top: 55px;
+    margin-bottom: 0;
+  }
+
+  .about-me-content h2 {
+    margin-top: 60px;
+    font-size: 35px;
+    line-height: 87px;
+    text-align: center;
+  }
+
+  .about-me-content,
+  .follow-me {
+    text-align: center;
+  }
+
+  .follow-me .icon {
+    padding: 15px;
+  }
+
+  .about-me-content p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .favorite-recipes-content {
+    text-align: center;
+  }
+
+  .favorite-recipes-title {
+    font-size: 30px;
   }
 }
