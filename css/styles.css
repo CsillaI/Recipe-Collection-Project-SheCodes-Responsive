@@ -164,6 +164,11 @@ h3 {
 
 /*Recipes Page*/
 
+.recipes-wrapper {
+  max-width: 760px;
+  padding-left: 296px;
+}
+
 /*Contact Page*/
 
 /*Small device friendly*/
