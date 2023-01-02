@@ -223,6 +223,26 @@ h2 {
   text-decoration: underline;
   color: var(--primary-color);
 }
+
+/*Footer */
+
+.footer-wrapper {
+  background-color: var(--background-color);
+  background-size: cover;
+}
+
+.footer {
+  padding: 32px 130px 30px 120px;
+}
+
+.footer .name,
+.footer .name:hover {
+  color: var(--secondary-color);
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /*Small device friendly*/
 
 @media (max-width: 992px) {
