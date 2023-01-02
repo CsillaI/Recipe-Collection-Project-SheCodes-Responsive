@@ -192,6 +192,37 @@ h2 {
 
 /*Contact Page*/
 
+.contact-me-content ul {
+  margin-top: 152px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact-me-content .icons {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  margin-right: 25px;
+  margin-top: 18px;
+  margin-bottom: 35px;
+}
+
+.contact-type {
+  color: var(--accent-color);
+}
+
+.contact-links {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contact-links:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
 /*Small device friendly*/
 
 @media (max-width: 992px) {
@@ -259,6 +290,10 @@ h2 {
   .favorite-recipes-content {
     text-align: center;
   }
+
+  .recipes-wrapper {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 567px) {
@@ -271,6 +306,16 @@ h2 {
 
   .navigation ul li {
     padding: 6px 10px;
+  }
+  .contact-me-content {
+    text-align: center;
+  }
+  .contact-me-content ul {
+    margin-top: 50px;
+  }
+
+  .my-picture {
+    margin-top: 45px;
   }
 }
 
@@ -294,6 +339,24 @@ h2 {
     font-size: 45px;
     line-height: 87px;
     text-align: center;
+  }
+  .contact-me-content {
+    text-align: center;
+  }
+
+  .contact-me-content ul {
+    margin-top: 50px;
+  }
+
+  .contact-me-content {
+    text-align: center;
+  }
+  .contact-me-content ul {
+    margin-top: 50px;
+  }
+
+  .my-picture {
+    margin-top: 45px;
   }
 }
 
@@ -350,5 +413,8 @@ h2 {
 
   .favorite-recipes-title {
     font-size: 30px;
+  }
+  .contact-me-content ul {
+    margin-top: 50px;
   }
 }
