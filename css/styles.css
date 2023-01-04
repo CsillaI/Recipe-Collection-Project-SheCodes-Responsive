@@ -226,6 +226,10 @@ h2 {
 
 /*Footer */
 
+footer {
+  margin-top: 100px;
+}
+
 .footer-wrapper {
   background-color: var(--background-color);
   background-size: cover;
@@ -353,6 +357,9 @@ h2 {
   .my-picture {
     margin-top: 45px;
   }
+  .follow-me .icon {
+    padding: 13px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -395,7 +402,7 @@ h2 {
     margin-top: 45px;
   }
   .follow-me .icon {
-    padding: 14px;
+    padding: 13px;
   }
 }
 
